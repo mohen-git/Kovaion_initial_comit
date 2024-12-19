@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Kovaion Automation Login Suiite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Test cases(failed)">
+    <classes>
+      <class name="com.kovaion.testcases.Login">
+        <methods>
+          <include name="Verify_login_with_mobile_number"/>
+          <include name="Starting"/>
+          <include name="Verify_login_with_InvalidEmail"/>
+          <include name="TearDown"/>
+          <include name="Verify_login_with_validEmail_and_Invalid_password"/>
+        </methods>
+      </class> <!-- com.kovaion.testcases.Login -->
+    </classes>
+  </test> <!-- Login Test cases(failed) -->
+</suite> <!-- Failed suite [Kovaion Automation Login Suiite] -->
